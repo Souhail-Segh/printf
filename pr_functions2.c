@@ -104,4 +104,4 @@ int f_intp(va_list args)
 	num = va_arg(args, unsigned int);
 	l = digdigp(num, 0);
 	return (l);
-
+}
